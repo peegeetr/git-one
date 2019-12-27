@@ -48,3 +48,9 @@ command: git merge <name of other branch>
 
 -Escape from scary screen like editor type
 command: :wq
+
+-Push your git repo to github
+command: git push <your github repo url> master
+
+-Make alias to your github repository url
+command: git remote add origin <your github repo url>
