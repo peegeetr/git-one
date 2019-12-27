@@ -60,3 +60,9 @@ command: git clone <url of repo>
 
 -Show the remote repository to check which repo to push
 command: git remote -v
+
+-Download or Pull the GitHub repo to local Git repo
+command: git pull origin master
+
+-Push your brach to your GitHub repo
+command: git push origin <name of brach>
