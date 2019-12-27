@@ -54,3 +54,9 @@ command: git push <your github repo url> master
 
 -Make alias to your github repository url
 command: git remote add origin <your github repo url>
+
+-Cloning a repo created on github
+command: git clone <url of repo>
+
+-Show the remote repository to check which repo to push
+command: git remote -v
