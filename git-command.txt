@@ -15,3 +15,12 @@ command: git log
 
 -See condense commit history
 command: git log --oneline
+
+-Using checkout to go back in time
+command: git checkout <id of file>
+
+-Using checkout to go back in the current master
+command: git checkout master
+
+-Using reset to delete permanently the file
+command: git reset <id of file> --hard
