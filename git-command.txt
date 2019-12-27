@@ -24,3 +24,27 @@ command: git checkout master
 
 -Using reset to delete permanently the file
 command: git reset <id of file> --hard
+
+-Create a new branch so not to mess up to master branch
+command: git branch <branch name>
+
+-Create a new branch and switch to it
+command: git checkout -b <branch name>
+
+-Show all the branches
+command: git branch -a
+
+-Switch to branch
+command: git checkout <name of branch>
+
+-Switch back to master branch
+command: git checkout master
+
+-Delete the other branch if not merge
+command: git branch -D <name of branch>
+
+-Merge the other branch to master
+command: git merge <name of other branch>
+
+-Escape from scary screen like editor type
+command: :wq
