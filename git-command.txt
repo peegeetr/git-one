@@ -1,0 +1,11 @@
+-Check the git status
+command: git status
+
+-Add file to staging
+command: git add <name of file>
+
+-Remove the file to staging
+command: git rm --cached <name of file>
+
+-Commit the file from staging
+command: git commit -m "sample message for file to remember"
