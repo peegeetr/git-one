@@ -9,3 +9,9 @@ command: git rm --cached <name of file>
 
 -Commit the file from staging
 command: git commit -m "sample message for file to remember"
+
+-See the commit history
+command: git log
+
+-See condense commit history
+command: git log --oneline
