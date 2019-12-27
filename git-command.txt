@@ -1,3 +1,9 @@
+-Initialize local Git repository
+command: git init
+
+-Create a file inside Git repository
+command: touch <file name>
+
 -Check the git status
 command: git status
 
