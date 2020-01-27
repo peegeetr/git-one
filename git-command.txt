@@ -75,6 +75,7 @@ command: git push origin <name of brach>
 
 -Delete a branch from remote repository
 command: git fetch origin -p
+command: git push origin --delete test
 
 //To fetch a branch, you simply need to:
 
