@@ -90,3 +90,6 @@ git checkout -b test origin/test
 //Or
 
 git branch test origin/test
+
+// push to new created repository
+git remote add origin https://github.com/peegeetr/data-mining-react.git
